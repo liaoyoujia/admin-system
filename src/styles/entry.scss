@@ -1,6 +1,6 @@
+@import './normalize.css';
 @import './variable.scss';
 @import './mixin.scss';
-@import './reset.scss';
 
 // 公用样式
 html,
@@ -27,5 +27,5 @@ body {
 // 滚动的滑块
 ::-webkit-scrollbar-thumb {
   border-radius: 6px;
-  background: #6affa3;
+  background: $red;
 }

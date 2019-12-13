@@ -5,11 +5,10 @@ For example, to overwrite the theme color:
 */
 // @import '@/styles/entry.scss';
 
-// $--color-primary: $my-theme-primary-color;
+// $--color-primary: $red;
 
 // /* 改变 icon 字体路径变量，必需 */
 $--font-path: '~element-ui/lib/theme-chalk/fonts';
-
 @import '~element-ui/packages/theme-chalk/src/index';
 
 // // 输入组件禁止状态的背景色
